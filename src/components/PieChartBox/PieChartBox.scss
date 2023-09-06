@@ -1,0 +1,28 @@
+.pieChart {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    h1 {
+        font-size: 20px;
+    }
+    .options {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        text-align: center;
+        gap: 20px;
+        .option {
+            text-align: center;
+            .title {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                .dot {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

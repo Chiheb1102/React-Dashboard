@@ -1,0 +1,33 @@
+.topbox {
+    h1 {
+        margin-bottom: 20px;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+        img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        div {
+            p:first-child {
+                font-size: 13px;
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+            p:last-child {
+                margin-bottom: 5px;
+                font-size: 12px;
+            }
+        }
+        span {
+            margin-left: auto;
+            font-weight: 500;
+        }
+    }
+}
